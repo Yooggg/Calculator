@@ -13,6 +13,7 @@ public class calc {
         RomanToArabic translation = new RomanToArabic();
         calculated res = new calculated();
         More10 more = new More10();
+        ArabicToRoman rome = new ArabicToRoman();
 
         System.out.println("Введите выражение:");
         expression = scanner.nextLine();
@@ -60,7 +61,7 @@ public class calc {
         }
 
         if(count == 0){
-            System.out.println(translation.reverse(result));
+            System.out.println(rome.reverse(result));
         }
         else{
             System.out.println(result);
