@@ -2,7 +2,7 @@ package source;
 
 import java.util.HashMap;
 
-public class ArabicToRoman {
+class ArabicToRoman {
     public String reverse(int ArabicNum) {
         String res = "";
         HashMap<Integer, String> map = new HashMap<>();

@@ -1,6 +1,6 @@
 package source;
 
-public class calculated{
+class calculated{
     public int result(String[] expression){
         switch (expression[1]){
             case "+":

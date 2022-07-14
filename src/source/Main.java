@@ -1,24 +1,18 @@
 package source;
-import java.util.*;
 
-public class calc {
-    public static void main(String[] args) throws MyException{
-        String expression;
+class Main {
+    public String calc(String input) throws MyException{
         String[] spl;
         boolean check;
         int count = 0;
 
         isDigit digit = new isDigit();
-        Scanner scanner = new Scanner(System.in);
         RomanToArabic translation = new RomanToArabic();
         calculated res = new calculated();
         More10 more = new More10();
         ArabicToRoman rome = new ArabicToRoman();
 
-        System.out.println("Введите выражение:");
-        expression = scanner.nextLine();
-
-        spl = expression.split("\\s+");
+        spl = input.split("\\s+");
 
         if(spl.length < 3){
             throw new MyException("Строка не является математическим выражением");
@@ -59,13 +53,15 @@ public class calc {
         if(count == 0 && result < 0){
             throw new MyException("В римской системе нет отрицательных чисел");
         }
+        else if (result == 0){
+            throw new MyException("Ответ должен быть больше нуля");
+        }
 
         if(count == 0){
-            System.out.println(rome.reverse(result));
+            return rome.reverse(result);
         }
         else{
-            System.out.println(result);
+            return Integer.toString(result);
         }
-
     }
 }

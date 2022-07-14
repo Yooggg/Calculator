@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94264401-f980-4b86-9e92-00a2025facbd" name="Changes" comment="Commit 1">
-      <change afterPath="$PROJECT_DIR$/src/source/ArabicToRoman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/source/calc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/source/calc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/source/RomanToArabic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/source/RomanToArabic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/source/calc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/source/calculated.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/source/calculated.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/ArabicToRoman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/ArabicToRoman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/More10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/More10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/MyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/MyException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/source/RomanToArabic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/RomanToArabic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/source/calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/calc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/calculated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/calculated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/source/isDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/source/isDigit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +52,21 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.calc">
-    <configuration name="ArabicToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="source.Main" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="source.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="source.ArabicToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="source.ArabicToRoman" />
       <module name="untitled" />
       <extension name="coverage">
@@ -60,21 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToArabic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="source.RomanToArabic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="source.RomanToArabic" />
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="source.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="calc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="source.calc" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -88,9 +94,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.calc" />
-        <item itemvalue="Application.ArabicToRoman" />
-        <item itemvalue="Application.RomanToArabic" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.source.ArabicToRoman" />
+        <item itemvalue="Application.source.RomanToArabic" />
       </list>
     </recent_temporary>
   </component>

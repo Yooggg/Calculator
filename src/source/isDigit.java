@@ -1,6 +1,6 @@
 package source;
 
-public class isDigit {
+class isDigit {
     public boolean IsDigit(String num) throws NumberFormatException{
         try{
             Integer.parseInt(num);

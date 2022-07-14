@@ -1,10 +1,10 @@
 package source;
 
-public class RomanToArabic {
-    public String translation(String RomanNum){
+class RomanToArabic {
+    public String translation(String RomanNum) throws MyException {
         switch (RomanNum){
             case "O":
-                return "0";
+                throw new MyException("Не корректный ввод числа");
             case "I":
                 return "1";
             case "II":
