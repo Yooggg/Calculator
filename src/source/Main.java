@@ -1,7 +1,7 @@
 package source;
 
 class Main {
-    public String calc(String input) throws MyException{
+    public static String calc(String input) throws MyException{
         String[] spl;
         boolean check;
         int count = 0;
