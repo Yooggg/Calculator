@@ -1,5 +1,6 @@
 package source;
 
+import java.util.*;
 class Main {
     public static String calc(String input) throws MyException{
         String[] spl;
@@ -63,5 +64,13 @@ class Main {
         else{
             return Integer.toString(result);
         }
+    }
+    public static void main(String[] args) throws MyException{
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Введите математическое выражение");
+
+        String expression = scanner.nextLine();
+        System.out.println(Main.calc(expression));
     }
 }
