@@ -54,7 +54,7 @@ class Main {
         if(count == 0 && result < 0){
             throw new MyException("В римской системе нет отрицательных чисел");
         }
-        else if (result == 0){
+        else if (count == 0 && result == 0){
             throw new MyException("Ответ должен быть больше нуля");
         }
 
